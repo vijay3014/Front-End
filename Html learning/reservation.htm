@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reservation form</title>
+    <style>
+      .content {
+        max-width: 500px;
+        margin: auto;
+      }
+      pre {
+        display: table-row;
+      }
+      label {
+        display: table-cell;
+        text-align: left;
+      }
+      input {
+        display: table-cell;
+        text-align: left;
+      }
+      fieldset {
+        display: table;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="width: 500px; height: 100px" class="content">
+      <fieldset style="border-color: rgb(74, 177, 232); border-width: 5px" name="data">
+        <h1 style="color: rgb(122, 122, 122);">Reservation Request</h1>
+        <form action="">
+          <fieldset>
+            <legend style="color: rgb(14, 191, 255)">General Information</legend>
+            <br />
+           
+            <pre>
+        <label for="date">Arrival date :</label> 
+            <input type="date"></pre>
+            <br />
+            <pre>
+        <label for="count"> Nights :     </label> 
+        <input type="box"></pre>
+            <br />
+            <pre>
+        <label> Adults :     </label>
+        <input type="number" style="width: 40px;"></pre>
+            <br />
+            <pre>
+        <label>Children :    </label>
+        <input type="number" style="width: 40px;"> </pre>
+            <br />
+          </fieldset>
+          <br />
+          <fieldset>
+            <legend style="color: rgb(14, 191, 255)">Preferences</legend>
+            <pre>
+            <label for="type">Room type : </label>
+            <input type="radio" name="type"> Standard <input type="radio" name="type"> Business <input type="radio" name="type"> Suite 
+        </pre>
+            <pre>
+            <label for="type">Room type : </label>
+            <input type="radio" name="box"> King <input type="radio" name="box"> Double Double
+        </pre>
+            <pre>
+            <input type="checkbox" > Smoking
+        </pre>
+          </fieldset>
+          <br />
+          <fieldset>
+            <legend style="color: rgb(14, 191, 255)">Contanct Information</legend>
+            <pre>
+            <label for="name">Name :   </label>
+            <input type="text" placeholder="Enter your name">
+        </pre>
+            <br />
+            <pre>
+            <label for="email">Email :  </label>
+            <input type="text" placeholder="example@hotmail.com">
+        </pre>
+            <br />
+            <pre>
+            <label for="phone">Phone :  </label>
+            <input type="text" placeholder="number">
+        </pre>
+          </fieldset>
+          <br />
+          <input type="submit" value="Submit Reservation" />
+          <input type="reset" value="Clear" style="width: 100px" />
+          <!-- <span style="color: red;">This is validation</span> -->
+        </form>
+      </fieldset>
+    </div>
+  </body>
+</html>
+ 
+
