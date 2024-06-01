@@ -18,8 +18,8 @@ a:visited{
 }
 
 a:hover{
-    /* color: black;
-    background-color: yellow; */
+    color: black;
+    background-color: yellow;
 }
 
 a:active{
