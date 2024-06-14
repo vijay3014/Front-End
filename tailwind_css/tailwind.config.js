@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{html,htm,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'osward': ['Oswald'],
+        'body': ['"Open Sans"'],
+      }
+    },
   },
   plugins: [],
 }
