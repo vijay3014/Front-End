@@ -1416,6 +1416,10 @@ video {
   background-color: rgb(234 179 8 / var(--tw-bg-opacity));
 }
 
+.bg-\[url\(\'\.\/marvel-iron-man-dark-desktop-wallpaper-preview\.jpg\'\)\] {
+  background-image: url('./marvel-iron-man-dark-desktop-wallpaper-preview.jpg');
+}
+
 .bg-gradient-to-br {
   background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
 }
@@ -1426,6 +1430,14 @@ video {
 
 .bg-gradient-to-t {
   background-image: linear-gradient(to top, var(--tw-gradient-stops));
+}
+
+.bg-\[url\(\'\.\/assmarvel-iron-man-dark-desktop-wallpaper-preview\.jpg\'\)\] {
+  background-image: url('./assmarvel-iron-man-dark-desktop-wallpaper-preview.jpg');
+}
+
+.bg-\[url\(\'\.\/asset\/marvel-iron-man-dark-desktop-wallpaper-preview\.jpg\'\)\] {
+  background-image: url('./asset/marvel-iron-man-dark-desktop-wallpaper-preview.jpg');
 }
 
 .from-cyan-400 {
@@ -1679,12 +1691,12 @@ video {
   text-align: center;
 }
 
-.font-body {
-  font-family: "Open Sans";
-}
-
 .font-mono {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.font-osward {
+  font-family: Oswald;
 }
 
 .font-sans {
@@ -1693,10 +1705,6 @@ video {
 
 .font-serif {
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-}
-
-.font-osward {
-  font-family: Oswald;
 }
 
 .text-2xl {
