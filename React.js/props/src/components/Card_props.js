@@ -11,8 +11,8 @@ const Card = (props) => {
             <p className='text-xs text-gray-400 mr-3 uppercase'>{props.brand}</p>
             <p className='font-bold text-lg truncate'>{props.proName}</p>
             <div className='flex items-center'>
-               <p className='my-3 text-lg font-semibold '>{props.curPrice}</p>
-               <del className='text-sm ml-2 font-semibold text-gray-600'>{props.delPrice}</del>
+               <p className='my-3 text-lg font-semibold '>{props.nowPrice}</p>
+               <del className='text-sm ml-2 font-semibold text-gray-600'>{props.afPrice}</del>
                <i className='ml-auto'><FontAwesomeIcon icon={faBagShopping} /></i>
             </div>
         </div>

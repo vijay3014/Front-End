@@ -18,12 +18,12 @@ function App() {
       </div>
 
       <div className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center gap-y-20 gap-x-14 mt-10 mb-5 justify-center">
-        <Card image={image1} delPrice="1,40,000" curPrice="1,10,000" proName="Samsung S22 Utra" brand="samsung"/>
-        <Card image={image2} delPrice="85,000" curPrice="70,000" proName="Oneplus 9 pro (Black)"  brand="oneplus"/>
-        <Card image={image3} delPrice="80,000" curPrice="65,000" proName="Oneplus 8 pro" brand="oneplus"/>
-        <Card image={image4} delPrice="65,000" curPrice="52,000" proName="Nothing Phone 2" brand="nothing"/>
-        <Card image={image5} delPrice="85,000" curPrice="70,000" proName="Oneplus 9 pro (Morning mist)" brand="oneplus"/>
-        <Card image={image6} delPrice="90,000" curPrice="85,000" proName="Huwai xel3" brand="huwai"/>
+        <Card image={image1} afPrice="1,40,000" nowPrice="1,10,000" proName="Samsung S22 Utra" brand="samsung"/>
+        <Card image={image2} afPrice="85,000" nowPrice="70,000" proName="Oneplus 9 pro (Black)"  brand="oneplus"/>
+        <Card image={image3} afPrice="80,000" nowPrice="65,000" proName="Oneplus 8 pro" brand="oneplus"/>
+        <Card image={image4} afPrice="65,000" nowPrice="52,000" proName="Nothing Phone 2" brand="nothing"/>
+        <Card image={image5} afPrice="85,000" nowPrice="70,000" proName="Oneplus 9 pro (Morning mist)" brand="oneplus"/>
+        <Card image={image6} afPrice="90,000" nowPrice="85,000" proName="Huwai xel3" brand="huwai"/>
       </div>
     </div>
   );
