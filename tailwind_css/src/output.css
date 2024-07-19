@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.4.4 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.6 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -859,6 +859,10 @@ video {
   margin-top: 1rem;
 }
 
+.mt-40 {
+  margin-top: 10rem;
+}
+
 .mt-5 {
   margin-top: 1.25rem;
 }
@@ -885,10 +889,6 @@ video {
 
 .mt-\[30px\] {
   margin-top: 30px;
-}
-
-.mt-40 {
-  margin-top: 10rem;
 }
 
 .box-border {
@@ -1015,6 +1015,10 @@ video {
   height: 6px;
 }
 
+.h-\[800px\] {
+  height: 800px;
+}
+
 .h-\[calc\(100vh-100px\)\] {
   height: calc(100vh - 100px);
 }
@@ -1034,10 +1038,6 @@ video {
 
 .h-svh {
   height: 100svh;
-}
-
-.h-\[800px\] {
-  height: 800px;
 }
 
 .min-h-\[200px\] {
@@ -1516,6 +1516,11 @@ video {
   border-top-color: rgb(32 32 32 / var(--tw-border-opacity));
 }
 
+.bg-\[\#202020\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(32 32 32 / var(--tw-bg-opacity));
+}
+
 .bg-\[\#252525\] {
   --tw-bg-opacity: 1;
   background-color: rgb(37 37 37 / var(--tw-bg-opacity));
@@ -1668,11 +1673,6 @@ video {
 .bg-yellow-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(234 179 8 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#202020\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(32 32 32 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'\.\/asset\/marvel-iron-man-dark-desktop-wallpaper-preview\.jpg\'\)\] {
@@ -1912,6 +1912,10 @@ video {
   padding-bottom: 0px;
 }
 
+.pb-16 {
+  padding-bottom: 4rem;
+}
+
 .pb-2 {
   padding-bottom: 0.5rem;
 }
@@ -1966,10 +1970,6 @@ video {
 
 .pt-\[9px\] {
   padding-top: 9px;
-}
-
-.pb-16 {
-  padding-bottom: 4rem;
 }
 
 .text-left {
@@ -2534,14 +2534,14 @@ video {
   margin-left: 1.25rem;
 }
 
-.before\:h-full::before {
-  content: var(--tw-content);
-  height: 100%;
-}
-
 .before\:h-24::before {
   content: var(--tw-content);
   height: 6rem;
+}
+
+.before\:h-full::before {
+  content: var(--tw-content);
+  height: 100%;
 }
 
 .before\:w-0::before {
@@ -2549,14 +2549,14 @@ video {
   width: 0px;
 }
 
-.before\:w-\[500px\]::before {
-  content: var(--tw-content);
-  width: 500px;
-}
-
 .before\:w-\[3px\]::before {
   content: var(--tw-content);
   width: 3px;
+}
+
+.before\:w-\[500px\]::before {
+  content: var(--tw-content);
+  width: 500px;
 }
 
 .before\:skew-x-\[15deg\]::before {
@@ -2586,6 +2586,12 @@ video {
   background-color: rgb(17 17 17 / var(--tw-bg-opacity));
 }
 
+.before\:bg-\[\#242323\]::before {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(36 35 35 / var(--tw-bg-opacity));
+}
+
 .before\:bg-\[\#FFB400\]::before {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
@@ -2607,12 +2613,6 @@ video {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
   background-color: rgb(234 179 8 / var(--tw-bg-opacity));
-}
-
-.before\:bg-\[\#242323\]::before {
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(36 35 35 / var(--tw-bg-opacity));
 }
 
 .before\:bg-gradient-to-b::before {
@@ -2957,16 +2957,16 @@ video {
     width: max-content;
   }
 
+  .sm\:grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .sm\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .sm\:grid-cols-1 {
-    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
   .sm\:flex-row {

@@ -1,0 +1,20 @@
+.ridham{
+    background-color:black;
+    color:white;
+
+
+}
+
+.bu{
+    background-color: blueviolet;
+    color: yellow;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bu:hover{
+    background-color: burlywood;
+    color: brown;
+}
