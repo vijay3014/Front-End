@@ -1,0 +1,48 @@
+{
+  "student": [
+    {
+      "id": "1",
+      "firstname": "Dhaval",
+      "lastname": "Solanki",
+      "email": "dhavalas24@gmail.com",
+      "phone": "09054972757",
+      "age": "23",
+      "gender": "Male",
+      "location": "INDIA",
+      "image": ""
+    },
+    {
+      "id": "2",
+      "firstname": "Vijay",
+      "lastname": "Solanki",
+      "email": "vs@gmail.com",
+      "phone": "5454354444",
+      "age": "23",
+      "gender": "Male",
+      "location": "INDIA",
+      "image": ""
+    },
+    {
+      "id": "3",
+      "firstname": "Darshan",
+      "lastname": "Chauhan",
+      "email": "dc@gmailcom",
+      "phone": "7897878544",
+      "age": "16",
+      "gender": "Male",
+      "location": "INDIA",
+      "image": ""
+    },
+    {
+      "id": "4",
+      "firstname": "Krish ",
+      "lastname": "Ranghani",
+      "email": "krish@gmail.com",
+      "phone": "999999999",
+      "age": "18",
+      "gender": "Male",
+      "location": "India",
+      "image": ""
+    }
+  ]
+}
