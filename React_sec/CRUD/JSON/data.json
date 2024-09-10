@@ -1,25 +1,14 @@
 {
   "student": [
     {
-      "id": "1",
-      "firstname": "Dhaval",
-      "lastname": "Solanki",
-      "email": "dhavalas24@gmail.com",
-      "phone": "09054972757",
-      "age": "23",
-      "gender": "Male",
-      "location": "INDIA",
-      "image": ""
-    },
-    {
       "id": "2",
       "firstname": "Vijay",
       "lastname": "Solanki",
-      "email": "vs@gmail.com",
-      "phone": "5454354444",
+      "email": "VD48@gmail.com",
+      "phone": "9712388497",
       "age": "23",
       "gender": "Male",
-      "location": "INDIA",
+      "location": "Home",
       "image": ""
     },
     {
@@ -28,20 +17,42 @@
       "lastname": "Chauhan",
       "email": "dc@gmailcom",
       "phone": "7897878544",
-      "age": "16",
+      "age": "168",
       "gender": "Male",
-      "location": "INDIA",
+      "location": "Home",
       "image": ""
     },
     {
-      "id": "4",
-      "firstname": "Krish ",
-      "lastname": "Ranghani",
-      "email": "krish@gmail.com",
-      "phone": "999999999",
-      "age": "18",
+      "id": "1",
+      "firstname": "Dhawal",
+      "lastname": "Solanki",
+      "email": "DS07@gmail.com",
+      "phone": "123456789",
+      "age": "22",
       "gender": "Male",
-      "location": "India",
+      "location": "Home",
+      "image": ""
+    },
+    {
+      "id": "2",
+      "firstname": "vrishbh",
+      "lastname": "jogani",
+      "email": "vj52@gmail.com",
+      "phone": "123456789",
+      "age": "20",
+      "gender": "Male",
+      "location": "Home",
+      "image": ""
+    },
+    {
+      "id": "3",
+      "firstname": "nayan",
+      "lastname": "katariya",
+      "email": "nk00@gmail.com",
+      "phone": "123456789",
+      "age": "20",
+      "gender": "Male",
+      "location": "Home",
       "image": ""
     }
   ]
